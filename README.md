@@ -1,3 +1,8 @@
+## Sobre
+Projeto pessoal desenvolvido utilizando **React**, com principal objetivo de colocar meus conhecimentos dessa tecnologia em prática.
+
+![Print TO-DO LIST](print.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
