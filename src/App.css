@@ -32,7 +32,6 @@ body {
     width: 300px;
     height: 100px;
     padding: 1rem;
-    outline: 0;
 }
 
 .addTask button {
@@ -64,6 +63,33 @@ body {
 .task {
     width: 240px;
     height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
-    border-top: solid 5px aqua;
+}
+
+.task:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.task h1 {
+    font-size: 18px;
+}
+
+.task button {
+    border: none;
+}
+
+.task button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.task .buttons {
+    text-align: center;
 }
